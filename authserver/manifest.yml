@@ -1,0 +1,9 @@
+---
+applications:
+- name: authserver
+  memory: 1024M
+  host: microservices-authserver-hillol
+  domain: localhost
+  services:
+  - eureka
+  - config-server

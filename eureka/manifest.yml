@@ -1,0 +1,6 @@
+---
+applications:
+- name: eureka
+  memory: 1024M
+  host: eureka-hillol
+  domain: localhost
